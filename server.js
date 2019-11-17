@@ -6,7 +6,6 @@ const server = Hapi.server({
 });
 
 const routes = require('./routes');
-console.log(routes);
 server.route(routes);
 
 const init = async () => {
